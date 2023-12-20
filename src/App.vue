@@ -9,7 +9,7 @@
       <div class="new-task-form">
         <AddTask/>
       </div>
-
+ 
       <!-- filter task -->
       <nav class="filter">
         <button @click.prevent="filters = 'all'">All tasks</button>
