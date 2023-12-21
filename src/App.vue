@@ -20,7 +20,7 @@
         Chargement des données ...
       </div>
       <!-- show all task -->
-        <div class="task-list" v-if="filters === 'all'">
+        <div class="task-list" v-if="filters === 'all'"> 
           <p>You have {{ totalCount }} task</p>
           <div  v-for="task in tasks" :key="task.id">
             <TaskDetail :task="task"/>
